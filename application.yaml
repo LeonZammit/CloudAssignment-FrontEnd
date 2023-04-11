@@ -1,4 +1,5 @@
 runtime: python37
 handlers:
 - url: /.*
-  script: auto
+  static_files: index.html
+  upload: index.html
