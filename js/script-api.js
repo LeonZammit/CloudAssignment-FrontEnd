@@ -9,6 +9,8 @@ function generateNumbers() {
             .then(response => {
                 console.log(response);
             })
-            .catch(error => reject(error));
+            .catch(error => {
+                console.log(error);
+            });
     }
 }
